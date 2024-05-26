@@ -142,7 +142,7 @@
 @media (min-width: 992px) {
     .navbar .nav-item .dropdown-menu {
         display: block;
-        top: 100%;
+        top: 0%;
         margin-top: 0;
         transform: rotateX(-75deg);
         transform-origin: 0% 0%;
