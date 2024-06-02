@@ -37,7 +37,17 @@
 
 .btn.btn-primary,
 .btn.btn-secondary {
-    color: #FFFFFF;
+    border: solid 1px #a85fe8;
+    border-radius: 20px;
+    color: white;
+    background-color: #7b2cbf;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+.btn.btn-primary:hover,
+.btn.btn-secondary:hover{
+    background-color: #a85fe8;
+    color: white;
+    transform: scale(1.1)
 }
 
 .btn-square {
